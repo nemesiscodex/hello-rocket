@@ -1,0 +1,5 @@
+[development]
+port = 3000
+
+[development.databases]
+postgres = { url = "postgres://rocket:rocket@localhost/rocket" }
