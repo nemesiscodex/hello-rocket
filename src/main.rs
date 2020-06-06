@@ -11,7 +11,7 @@ use rocket_contrib::json::Json;
 use rocket_contrib::databases::{database, diesel::PgConnection};
 use diesel::{Queryable, Insertable};
 use diesel::prelude::*;
-use serde_derive::{Serialize, Deserialize};
+use serde::{Serialize, Deserialize};
 
 #[database("postgres")]
 struct DbConn(PgConnection);
